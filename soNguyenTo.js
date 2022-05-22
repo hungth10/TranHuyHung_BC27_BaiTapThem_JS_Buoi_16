@@ -3,7 +3,7 @@ function primeNum() {
   var num_N = +document.querySelector("#num-N").value;
 
   // B2 dùng các hàm logic để tìm tất cả số nguyên từ 1 đến n
-  if (num_N < 1) {
+  if (num_N < 2) {
     // Không có số nguyên tố nào nhỏ hơn 2
     document.querySelector("#result").innerHTML = `
         Không có số nguyên tố nào nhỏ hơn 2`;
