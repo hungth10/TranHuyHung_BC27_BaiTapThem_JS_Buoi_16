@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    margin-top: 50px;
+}
+
+#result {
+    border-radius: 4px;
+    padding-left: 16px;
+    line-height: 40px;
+    min-height: 40px;
+    background-color: #82e086;
+}
+
+.btn {
+    background-color: #76d4e0;
+}
